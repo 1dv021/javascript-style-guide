@@ -1,0 +1,37 @@
+{
+  "organization": "1dv022",
+  "repos" : [
+
+    {
+      "name": "Examinationsuppgift 1",
+      "nameFormat": "{username}-examination-1",
+      "check": {
+        "jshint": {
+          "ignore": ["app/build", "app/dist"]
+        },
+        "required": ["app.js", "README.md"]
+      },
+      "milestones": [
+        {
+          "name" :    "Ordinarie examination",
+          "deadline": "2015-12-12"
+        },
+        {
+          "name" :    "Omexamination 1",
+          "deadline": "2016-01-12"
+        }
+      ]
+    },
+
+    {
+      "name": "examination3",
+      "nameFormat": "{username}-2015-ex",
+      "check": {
+
+        "jshint": {
+          "ignore": ["build", "dist"]
+        }
+      }
+    }
+  ]
+}
