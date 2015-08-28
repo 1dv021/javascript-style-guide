@@ -4,6 +4,7 @@
   {
       "name": "Examinationsuppgift 1",
       "nameFormat": "{username}-examination-1",
+      "description": "Examination 1 för {firstname} {lastname}, {class}",
       "check": {
         "jshint": {
           "ignore": ["app/build", "app/dist"]
@@ -24,6 +25,7 @@
     {
       "name": "Examinationsuppgift 2",
       "nameFormat": "{username}-examination-2",
+      "description": "Examination 2 för {firstname} {lastname}, {class}",
       "check": {
         "jshint": {
           "ignore": ["app/build", "app/dist"]
@@ -44,6 +46,7 @@
     {
       "name": "Examinationsuppgift 3",
       "nameFormat": "{username}-examination-3",
+      "description": "Examination 3 för {firstname} {lastname}, {class}",
       "check": {
         "jshint": {
           "ignore": ["app/build", "app/dist"]
@@ -63,7 +66,8 @@
     },
     {
       "name": "Laborationsuppgifter",
-      "nameFormat": "{username}-laborationer"      
+      "nameFormat": "{username}-laborationer",
+      "description": "Laborationsuppgifter för {firstname} {lastname}, {class}"      
     }  
   ]
 }
