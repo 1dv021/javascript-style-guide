@@ -1,8 +1,7 @@
 {
-  "organization": "1dv022",
+  "organization": "1dv021",
   "repos" : [
-
-    {
+  {
       "name": "Examinationsuppgift 1",
       "nameFormat": "{username}-examination-1",
       "check": {
@@ -22,16 +21,49 @@
         }
       ]
     },
-
     {
-      "name": "examination3",
-      "nameFormat": "{username}-2015-ex",
+      "name": "Examinationsuppgift 2",
+      "nameFormat": "{username}-examination-2",
       "check": {
-
         "jshint": {
-          "ignore": ["build", "dist"]
+          "ignore": ["app/build", "app/dist"]
+        },
+        "required": ["app.js", "README.md"]
+      },
+      "milestones": [
+        {
+          "name" :    "Ordinarie examination",
+          "deadline": "2015-12-12"
+        },
+        {
+          "name" :    "Omexamination 1",
+          "deadline": "2016-01-12"
         }
-      }
-    }
+      ]
+    },
+    {
+      "name": "Examinationsuppgift 3",
+      "nameFormat": "{username}-examination-3",
+      "check": {
+        "jshint": {
+          "ignore": ["app/build", "app/dist"]
+        },
+        "required": ["app.js", "README.md"]
+      },
+      "milestones": [
+        {
+          "name" :    "Ordinarie examination",
+          "deadline": "2015-12-12"
+        },
+        {
+          "name" :    "Omexamination 1",
+          "deadline": "2016-01-12"
+        }
+      ]
+    },
+    {
+      "name": "Laborationsuppgifter",
+      "nameFormat": "{username}-laborationer"      
+    }  
   ]
 }
